@@ -17,15 +17,15 @@ int main() {
   printf("Digite o nome da cidade: ");
   scanf("%s", nome);
   printf("Digite a população: ");
-  scanf("%d", %populacao);
+  scanf("%d", &populacao);
   printf("Digite a área: ");
-  scanf("%f", %area);
+  scanf("%f", &area);
   printf("Digite o Pib: ");
-  scanf("%f", %pib);
+  scanf("%f", &pib);
 
   // Área para exibição dos dados da cidade
 
-  printf("\n Carta da cidade \n");
+  printf("\n--- Carta da cidade ---\n");
   printf("Cidade: %s\n", nome);
   printf("População: %d\n", populacao);
   printf("Área: %f\n", area);
